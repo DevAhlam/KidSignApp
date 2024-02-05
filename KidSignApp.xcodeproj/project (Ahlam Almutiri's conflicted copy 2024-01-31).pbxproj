@@ -8,34 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A47E416C2B68E49A00D36675 /* KidSignAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E416B2B68E49A00D36675 /* KidSignAppApp.swift */; };
+		A47E416E2B68E49A00D36675 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E416D2B68E49A00D36675 /* ContentView.swift */; };
 		A47E41702B68E49B00D36675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E416F2B68E49B00D36675 /* Assets.xcassets */; };
 		A47E41732B68E49B00D36675 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47E41722B68E49B00D36675 /* Preview Assets.xcassets */; };
-		A4EB2F8C2B7021B90073E1BC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A4EB2F8B2B7021B90073E1BC /* Lottie */; };
-		A4EB2F902B7030B00073E1BC /* celebrate.json in Resources */ = {isa = PBXBuildFile; fileRef = A4EB2F8F2B7030B00073E1BC /* celebrate.json */; };
-		A9267A6D2B6B9C4400BD756D /* Test1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9267A6C2B6B9C4400BD756D /* Test1View.swift */; };
 		A950D4122B6A44F0009B387C /* SleepIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950D4112B6A44F0009B387C /* SleepIView.swift */; };
+		A950D4172B6A4883009B387C /* fullword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4162B6A4883009B387C /* fullword.gif */; };
+		A950D4192B6A48A5009B387C /* bath.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4182B6A48A5009B387C /* bath.gif */; };
+		A950D41D2B6A48C2009B387C /* washface.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D41C2B6A48C2009B387C /* washface.gif */; };
+		A950D41F2B6A48C9009B387C /* boring.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D41E2B6A48C9009B387C /* boring.gif */; };
+		A950D4212B6A48D1009B387C /* boringword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4202B6A48D1009B387C /* boringword.gif */; };
 		A950D4262B6A495C009B387C /* brushingword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4252B6A495C009B387C /* brushingword.gif */; };
 		A950D4282B6A4962009B387C /* brushing.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4272B6A4962009B387C /* brushing.gif */; };
 		A950D42A2B6A4971009B387C /* sleepword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4292B6A4971009B387C /* sleepword.gif */; };
 		A950D42C2B6A497D009B387C /* sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D42B2B6A497D009B387C /* sleep.gif */; };
 		A950D42E2B6A4996009B387C /* schoolword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D42D2B6A4996009B387C /* schoolword.gif */; };
 		A950D4302B6A499D009B387C /* school.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D42F2B6A499D009B387C /* school.gif */; };
-		A950D4362B6A4AC6009B387C /* washfaceword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4352B6A4AC6009B387C /* washfaceword.gif */; };
-		A950D4382B6A4B7F009B387C /* bathword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4372B6A4B7F009B387C /* bathword.gif */; };
-		A9557C542B6D9BBF0011926D /* Ithra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F029F01B2B6C1F1800DEDBC1 /* Ithra.ttf */; };
+		A950D4322B6A49E4009B387C /* excitedword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950D4312B6A49E4009B387C /* excitedword.gif */; };
 		A9930B162B68F60B004507C5 /* HappyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9930B152B68F60B004507C5 /* HappyView.swift */; };
-		A99F40EA2B6A4E74005E99CE /* boring.gif in Resources */ = {isa = PBXBuildFile; fileRef = A99F40E92B6A4E74005E99CE /* boring.gif */; };
-		A99F40EC2B6A4EAC005E99CE /* excited.gif in Resources */ = {isa = PBXBuildFile; fileRef = A99F40EB2B6A4EAC005E99CE /* excited.gif */; };
-		A99F40EE2B6A4EBC005E99CE /* bath.gif in Resources */ = {isa = PBXBuildFile; fileRef = A99F40ED2B6A4EBC005E99CE /* bath.gif */; };
-		A99F40F02B6A4ECA005E99CE /* washface.gif in Resources */ = {isa = PBXBuildFile; fileRef = A99F40EF2B6A4ECA005E99CE /* washface.gif */; };
-		A99F40F22B6A4EEC005E99CE /* boringword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A99F40F12B6A4EEC005E99CE /* boringword.gif */; };
-		A99F40F42B6A4F71005E99CE /* WashHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F40F32B6A4F71005E99CE /* WashHandView.swift */; };
-		A9CAC1932B6A5AE400A8F835 /* full.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9CAC1922B6A5AE400A8F835 /* full.gif */; };
-		A9CAC1952B6A5AEC00A8F835 /* fullword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9CAC1942B6A5AEC00A8F835 /* fullword.gif */; };
-		A9CAC1972B6A5BF300A8F835 /* excitedword.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9CAC1962B6A5BF300A8F835 /* excitedword.gif */; };
 		A9CFA88B2B68FED700032396 /* SadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFA88A2B68FED700032396 /* SadView.swift */; };
 		A9CFA88D2B69334100032396 /* HungryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFA88C2B69334100032396 /* HungryView.swift */; };
-		F003D69E2B6EA92F00EE26BE /* progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003D69D2B6EA92F00EE26BE /* progress.swift */; };
 		F01A52A42B6A3A250085BCC3 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52A32B6A3A250085BCC3 /* PageView.swift */; };
 		F01A52A62B6A3B160085BCC3 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01A52A52B6A3B160085BCC3 /* happy.gif */; };
 		F01A52A82B6A3B2A0085BCC3 /* happyword.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01A52A72B6A3B2A0085BCC3 /* happyword.gif */; };
@@ -55,57 +46,44 @@
 		F01A52C62B6A3DB70085BCC3 /* changeclothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52C52B6A3DB70085BCC3 /* changeclothesView.swift */; };
 		F01A52C82B6A433C0085BCC3 /* change.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01A52C72B6A433C0085BCC3 /* change.gif */; };
 		F01A52CA2B6A43420085BCC3 /* changeword.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01A52C92B6A43420085BCC3 /* changeword.gif */; };
-		F01A52CC2B6A47090085BCC3 /* BathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CB2B6A47090085BCC3 /* BathView.swift */; };
-		F01A52CE2B6A472F0085BCC3 /* WashFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CD2B6A472F0085BCC3 /* WashFaceView.swift */; };
-		F01A52D02B6A47520085BCC3 /* BoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CF2B6A47520085BCC3 /* BoringView.swift */; };
+		F01A52CC2B6A47090085BCC3 /* bathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CB2B6A47090085BCC3 /* bathView.swift */; };
+		F01A52CE2B6A472F0085BCC3 /* washfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CD2B6A472F0085BCC3 /* washfaceView.swift */; };
+		F01A52D02B6A47520085BCC3 /* boringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52CF2B6A47520085BCC3 /* boringView.swift */; };
 		F01A52D22B6A47780085BCC3 /* excitedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D12B6A47780085BCC3 /* excitedView.swift */; };
-		F01A52D42B6A47990085BCC3 /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D32B6A47990085BCC3 /* FullView.swift */; };
+		F01A52D42B6A47990085BCC3 /* fullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D32B6A47990085BCC3 /* fullView.swift */; };
 		F01A52D62B6A47D50085BCC3 /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D52B6A47D50085BCC3 /* SchoolView.swift */; };
-		F01A52D82B6A48070085BCC3 /* BrushingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D72B6A48070085BCC3 /* BrushingView.swift */; };
+		F01A52D82B6A48070085BCC3 /* brushingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A52D72B6A48070085BCC3 /* brushingView.swift */; };
+		F059599E2B69153E002061DA /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F059599D2B69153E002061DA /* Progress.swift */; };
 		F05959A12B6919D7002061DA /* KgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05959A02B6919D7002061DA /* KgView.swift */; };
 		F06366B52B6A327A004A4C1B /* thirstyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06366B42B6A327A004A4C1B /* thirstyView.swift */; };
 		F06366BD2B6A35FC004A4C1B /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06366BC2B6A35FC004A4C1B /* GifImage.swift */; };
-		F06718012B6D469700E665AF /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06718002B6D469700E665AF /* Emotion.swift */; };
-		F06718042B6D4A7500E665AF /* Mainpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06718022B6D47C400E665AF /* Mainpage.swift */; };
-		F06718062B6D54AF00E665AF /* Routine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06718052B6D54AF00E665AF /* Routine1.swift */; };
-		F06718082B6D584200E665AF /* Routine2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06718072B6D584200E665AF /* Routine2.swift */; };
 		F06E67202B68F7220073D6A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06E671F2B68F7220073D6A9 /* Model.swift */; };
-		F0FB1D1B2B6BC91A00E874D3 /* Test2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB1D1A2B6BC91A00E874D3 /* Test2View.swift */; };
-		F0FB1D1D2B6BC99E00E874D3 /* Test3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB1D1C2B6BC99E00E874D3 /* Test3View.swift */; };
-		F0FB1D1F2B6BCFA400E874D3 /* SchoolKgTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB1D1E2B6BCFA400E874D3 /* SchoolKgTestView.swift */; };
+		F0B5CE4F2B6A49C9001B5EAF /* washhandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5CE4E2B6A49BE001B5EAF /* washhandView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A47E41682B68E49A00D36675 /* KidSignApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidSignApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47E416B2B68E49A00D36675 /* KidSignAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidSignAppApp.swift; sourceTree = "<group>"; };
+		A47E416D2B68E49A00D36675 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A47E416F2B68E49B00D36675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47E41722B68E49B00D36675 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A4EB2F8F2B7030B00073E1BC /* celebrate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = celebrate.json; sourceTree = "<group>"; };
-		A4EBD0D62B6E9E2200F821EA /* Ithra-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ithra-Bold.ttf"; sourceTree = "<group>"; };
-		A9267A6C2B6B9C4400BD756D /* Test1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1View.swift; sourceTree = "<group>"; };
 		A950D4112B6A44F0009B387C /* SleepIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepIView.swift; sourceTree = "<group>"; };
+		A950D4152B6A487D009B387C /* full.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = full.gif; sourceTree = "<group>"; };
+		A950D4162B6A4883009B387C /* fullword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fullword.gif; path = ../../../food/fullword.gif; sourceTree = "<group>"; };
+		A950D4182B6A48A5009B387C /* bath.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bath.gif; path = ../../../bath.gif; sourceTree = "<group>"; };
+		A950D41C2B6A48C2009B387C /* washface.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = washface.gif; path = ../../../washface.gif; sourceTree = "<group>"; };
+		A950D41E2B6A48C9009B387C /* boring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = boring.gif; path = ../../../boring.gif; sourceTree = "<group>"; };
+		A950D4202B6A48D1009B387C /* boringword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = boringword.gif; path = ../../../boringword.gif; sourceTree = "<group>"; };
 		A950D4252B6A495C009B387C /* brushingword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = brushingword.gif; path = ../../../sleep/brushingword.gif; sourceTree = "<group>"; };
 		A950D4272B6A4962009B387C /* brushing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = brushing.gif; path = ../../../sleep/brushing.gif; sourceTree = "<group>"; };
 		A950D4292B6A4971009B387C /* sleepword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sleepword.gif; path = ../../../sleep/sleepword.gif; sourceTree = "<group>"; };
 		A950D42B2B6A497D009B387C /* sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sleep.gif; path = ../../../sleep/sleep.gif; sourceTree = "<group>"; };
 		A950D42D2B6A4996009B387C /* schoolword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = schoolword.gif; path = ../../../school/schoolword.gif; sourceTree = "<group>"; };
 		A950D42F2B6A499D009B387C /* school.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = school.gif; path = ../../../school/school.gif; sourceTree = "<group>"; };
-		A950D4352B6A4AC6009B387C /* washfaceword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = washfaceword.gif; path = ../../../clean/washfaceword.gif; sourceTree = "<group>"; };
-		A950D4372B6A4B7F009B387C /* bathword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bathword.gif; path = ../../../clean/bathword.gif; sourceTree = "<group>"; };
+		A950D4312B6A49E4009B387C /* excitedword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = excitedword.gif; path = ../../../excitedword.gif; sourceTree = "<group>"; };
 		A9930B152B68F60B004507C5 /* HappyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyView.swift; sourceTree = "<group>"; };
-		A99F40E92B6A4E74005E99CE /* boring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = boring.gif; path = ../../../emotion/boring.gif; sourceTree = "<group>"; };
-		A99F40EB2B6A4EAC005E99CE /* excited.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = excited.gif; path = ../../../emotion/excited.gif; sourceTree = "<group>"; };
-		A99F40ED2B6A4EBC005E99CE /* bath.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bath.gif; path = ../../../clean/bath.gif; sourceTree = "<group>"; };
-		A99F40EF2B6A4ECA005E99CE /* washface.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = washface.gif; path = ../../../clean/washface.gif; sourceTree = "<group>"; };
-		A99F40F12B6A4EEC005E99CE /* boringword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = boringword.gif; path = ../../../emotion/boringword.gif; sourceTree = "<group>"; };
-		A99F40F32B6A4F71005E99CE /* WashHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashHandView.swift; sourceTree = "<group>"; };
-		A9CAC1922B6A5AE400A8F835 /* full.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = full.gif; path = ../../../food/full.gif; sourceTree = "<group>"; };
-		A9CAC1942B6A5AEC00A8F835 /* fullword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fullword.gif; path = ../../../food/fullword.gif; sourceTree = "<group>"; };
-		A9CAC1962B6A5BF300A8F835 /* excitedword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = excitedword.gif; path = ../../../emotion/excitedword.gif; sourceTree = "<group>"; };
-		A9CAC1A12B6ACF1000A8F835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A9CFA88A2B68FED700032396 /* SadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadView.swift; sourceTree = "<group>"; };
 		A9CFA88C2B69334100032396 /* HungryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryView.swift; sourceTree = "<group>"; };
-		F003D69D2B6EA92F00EE26BE /* progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = progress.swift; sourceTree = "<group>"; };
 		F01A52A32B6A3A250085BCC3 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		F01A52A52B6A3B160085BCC3 /* happy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happy.gif; sourceTree = "<group>"; };
 		F01A52A72B6A3B2A0085BCC3 /* happyword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happyword.gif; sourceTree = "<group>"; };
@@ -125,25 +103,19 @@
 		F01A52C52B6A3DB70085BCC3 /* changeclothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeclothesView.swift; sourceTree = "<group>"; };
 		F01A52C72B6A433C0085BCC3 /* change.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = change.gif; sourceTree = "<group>"; };
 		F01A52C92B6A43420085BCC3 /* changeword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = changeword.gif; sourceTree = "<group>"; };
-		F01A52CB2B6A47090085BCC3 /* BathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathView.swift; sourceTree = "<group>"; };
-		F01A52CD2B6A472F0085BCC3 /* WashFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashFaceView.swift; sourceTree = "<group>"; };
-		F01A52CF2B6A47520085BCC3 /* BoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringView.swift; sourceTree = "<group>"; };
+		F01A52CB2B6A47090085BCC3 /* bathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bathView.swift; sourceTree = "<group>"; };
+		F01A52CD2B6A472F0085BCC3 /* washfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = washfaceView.swift; sourceTree = "<group>"; };
+		F01A52CF2B6A47520085BCC3 /* boringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boringView.swift; sourceTree = "<group>"; };
 		F01A52D12B6A47780085BCC3 /* excitedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excitedView.swift; sourceTree = "<group>"; };
-		F01A52D32B6A47990085BCC3 /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
+		F01A52D32B6A47990085BCC3 /* fullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fullView.swift; sourceTree = "<group>"; };
 		F01A52D52B6A47D50085BCC3 /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
-		F01A52D72B6A48070085BCC3 /* BrushingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushingView.swift; sourceTree = "<group>"; };
-		F029F01B2B6C1F1800DEDBC1 /* Ithra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ithra.ttf; sourceTree = "<group>"; };
+		F01A52D72B6A48070085BCC3 /* brushingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brushingView.swift; sourceTree = "<group>"; };
+		F059599D2B69153E002061DA /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		F05959A02B6919D7002061DA /* KgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgView.swift; sourceTree = "<group>"; };
 		F06366B42B6A327A004A4C1B /* thirstyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirstyView.swift; sourceTree = "<group>"; };
 		F06366BC2B6A35FC004A4C1B /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
-		F06718002B6D469700E665AF /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
-		F06718022B6D47C400E665AF /* Mainpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainpage.swift; sourceTree = "<group>"; };
-		F06718052B6D54AF00E665AF /* Routine1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine1.swift; sourceTree = "<group>"; };
-		F06718072B6D584200E665AF /* Routine2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine2.swift; sourceTree = "<group>"; };
 		F06E671F2B68F7220073D6A9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		F0FB1D1A2B6BC91A00E874D3 /* Test2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2View.swift; sourceTree = "<group>"; };
-		F0FB1D1C2B6BC99E00E874D3 /* Test3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3View.swift; sourceTree = "<group>"; };
-		F0FB1D1E2B6BCFA400E874D3 /* SchoolKgTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolKgTestView.swift; sourceTree = "<group>"; };
+		F0B5CE4E2B6A49BE001B5EAF /* washhandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = washhandView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +123,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EB2F8C2B7021B90073E1BC /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +132,6 @@
 		A47E415F2B68E49A00D36675 = {
 			isa = PBXGroup;
 			children = (
-				A9CAC19E2B6ACEB700A8F835 /* Font */,
 				F059599F2B691959002061DA /* Views */,
 				A47E416A2B68E49A00D36675 /* KidSignApp */,
 				A47E41692B68E49A00D36675 /* Products */,
@@ -179,14 +149,20 @@
 		A47E416A2B68E49A00D36675 /* KidSignApp */ = {
 			isa = PBXGroup;
 			children = (
-				A9CAC1A12B6ACF1000A8F835 /* Info.plist */,
-				F06718022B6D47C400E665AF /* Mainpage.swift */,
+				F01A52D72B6A48070085BCC3 /* brushingView.swift */,
+				F01A52D52B6A47D50085BCC3 /* SchoolView.swift */,
+				F01A52D32B6A47990085BCC3 /* fullView.swift */,
+				F01A52D12B6A47780085BCC3 /* excitedView.swift */,
+				F01A52CF2B6A47520085BCC3 /* boringView.swift */,
+				F01A52CB2B6A47090085BCC3 /* bathView.swift */,
+				A950D4112B6A44F0009B387C /* SleepIView.swift */,
+				F01A52CD2B6A472F0085BCC3 /* washfaceView.swift */,
 				A47E416B2B68E49A00D36675 /* KidSignAppApp.swift */,
-				F06366BC2B6A35FC004A4C1B /* GifImage.swift */,
 				F01A52A32B6A3A250085BCC3 /* PageView.swift */,
+				F06366BC2B6A35FC004A4C1B /* GifImage.swift */,
 				F06E671F2B68F7220073D6A9 /* Model.swift */,
-				F003D69D2B6EA92F00EE26BE /* progress.swift */,
-				A4EB2F8F2B7030B00073E1BC /* celebrate.json */,
+				F059599D2B69153E002061DA /* Progress.swift */,
+				A47E416D2B68E49A00D36675 /* ContentView.swift */,
 				A47E416F2B68E49B00D36675 /* Assets.xcassets */,
 				A47E417B2B68E78600D36675 /* Words */,
 				A47E417C2B68E82F00D36675 /* Sentences */,
@@ -208,16 +184,14 @@
 			children = (
 				F01A52A72B6A3B2A0085BCC3 /* happyword.gif */,
 				F01A52AB2B6A3BAB0085BCC3 /* sadword.gif */,
-				A9CAC1962B6A5BF300A8F835 /* excitedword.gif */,
-				A99F40F12B6A4EEC005E99CE /* boringword.gif */,
+				A950D4312B6A49E4009B387C /* excitedword.gif */,
+				A950D4202B6A48D1009B387C /* boringword.gif */,
 				F01A52AF2B6A3BD00085BCC3 /* washhandword.gif */,
-				A950D4352B6A4AC6009B387C /* washfaceword.gif */,
 				F01A52B32B6A3BDE0085BCC3 /* toiletword.gif */,
-				A950D4372B6A4B7F009B387C /* bathword.gif */,
-				A9CAC1942B6A5AEC00A8F835 /* fullword.gif */,
 				A950D4252B6A495C009B387C /* brushingword.gif */,
 				F01A52B72B6A3BF80085BCC3 /* hungryword.gif */,
 				F01A52BB2B6A3C0B0085BCC3 /* thirstyword.gif */,
+				A950D4162B6A4883009B387C /* fullword.gif */,
 				F01A52C92B6A43420085BCC3 /* changeword.gif */,
 				A950D4292B6A4971009B387C /* sleepword.gif */,
 				F01A52BF2B6A3C1A0085BCC3 /* kgword.gif */,
@@ -230,86 +204,37 @@
 			isa = PBXGroup;
 			children = (
 				F01A52A92B6A3BA50085BCC3 /* sad.gif */,
-				A99F40E92B6A4E74005E99CE /* boring.gif */,
+				A950D41E2B6A48C9009B387C /* boring.gif */,
 				F01A52A52B6A3B160085BCC3 /* happy.gif */,
-				A99F40EB2B6A4EAC005E99CE /* excited.gif */,
 				A950D4272B6A4962009B387C /* brushing.gif */,
-				A99F40ED2B6A4EBC005E99CE /* bath.gif */,
-				F01A52B12B6A3BD80085BCC3 /* toilet.gif */,
-				A99F40EF2B6A4ECA005E99CE /* washface.gif */,
+				A950D42B2B6A497D009B387C /* sleep.gif */,
+				A950D41C2B6A48C2009B387C /* washface.gif */,
 				F01A52AD2B6A3BCB0085BCC3 /* washhand.gif */,
-				A9CAC1922B6A5AE400A8F835 /* full.gif */,
+				F01A52B12B6A3BD80085BCC3 /* toilet.gif */,
+				A950D4182B6A48A5009B387C /* bath.gif */,
+				F01A52C72B6A433C0085BCC3 /* change.gif */,
+				A950D4152B6A487D009B387C /* full.gif */,
 				F01A52B52B6A3BF10085BCC3 /* hungry.gif */,
 				F01A52B92B6A3BFF0085BCC3 /* thirsty.gif */,
-				F01A52C72B6A433C0085BCC3 /* change.gif */,
-				A950D42B2B6A497D009B387C /* sleep.gif */,
 				A950D42F2B6A499D009B387C /* school.gif */,
 				F01A52BD2B6A3C150085BCC3 /* kg.gif */,
 			);
 			path = Sentences;
 			sourceTree = "<group>";
 		};
-		A90806B52B6D557300E79003 /* EmotionGroup */ = {
-			isa = PBXGroup;
-			children = (
-				F06718002B6D469700E665AF /* Emotion.swift */,
-				A9930B152B68F60B004507C5 /* HappyView.swift */,
-				A9CFA88A2B68FED700032396 /* SadView.swift */,
-				F01A52D12B6A47780085BCC3 /* excitedView.swift */,
-				F01A52CF2B6A47520085BCC3 /* BoringView.swift */,
-				A9267A6C2B6B9C4400BD756D /* Test1View.swift */,
-			);
-			path = EmotionGroup;
-			sourceTree = "<group>";
-		};
-		A9CAC19E2B6ACEB700A8F835 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				F029F01B2B6C1F1800DEDBC1 /* Ithra.ttf */,
-				A4EBD0D62B6E9E2200F821EA /* Ithra-Bold.ttf */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
 		F059599F2B691959002061DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A90806B52B6D557300E79003 /* EmotionGroup */,
-				F06718092B6D5B3100E665AF /* Routine1Group */,
-				F067180A2B6D5BC800E665AF /* Routine2Group */,
+				A9930B152B68F60B004507C5 /* HappyView.swift */,
+				A9CFA88A2B68FED700032396 /* SadView.swift */,
+				F05959A02B6919D7002061DA /* KgView.swift */,
+				A9CFA88C2B69334100032396 /* HungryView.swift */,
+				F06366B42B6A327A004A4C1B /* thirstyView.swift */,
+				F01A52C12B6A3C540085BCC3 /* toilteView.swift */,
+				F01A52C52B6A3DB70085BCC3 /* changeclothesView.swift */,
+				F0B5CE4E2B6A49BE001B5EAF /* washhandView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		F06718092B6D5B3100E665AF /* Routine1Group */ = {
-			isa = PBXGroup;
-			children = (
-				F06718052B6D54AF00E665AF /* Routine1.swift */,
-				A9CFA88C2B69334100032396 /* HungryView.swift */,
-				F01A52D32B6A47990085BCC3 /* FullView.swift */,
-				F06366B42B6A327A004A4C1B /* thirstyView.swift */,
-				F01A52CD2B6A472F0085BCC3 /* WashFaceView.swift */,
-				A99F40F32B6A4F71005E99CE /* WashHandView.swift */,
-				F01A52CB2B6A47090085BCC3 /* BathView.swift */,
-				F0FB1D1A2B6BC91A00E874D3 /* Test2View.swift */,
-				F0FB1D1C2B6BC99E00E874D3 /* Test3View.swift */,
-			);
-			path = Routine1Group;
-			sourceTree = "<group>";
-		};
-		F067180A2B6D5BC800E665AF /* Routine2Group */ = {
-			isa = PBXGroup;
-			children = (
-				F06718072B6D584200E665AF /* Routine2.swift */,
-				F01A52C12B6A3C540085BCC3 /* toilteView.swift */,
-				F01A52D72B6A48070085BCC3 /* BrushingView.swift */,
-				F01A52C52B6A3DB70085BCC3 /* changeclothesView.swift */,
-				A950D4112B6A44F0009B387C /* SleepIView.swift */,
-				F05959A02B6919D7002061DA /* KgView.swift */,
-				F01A52D52B6A47D50085BCC3 /* SchoolView.swift */,
-				F0FB1D1E2B6BCFA400E874D3 /* SchoolKgTestView.swift */,
-			);
-			path = Routine2Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,9 +253,6 @@
 			dependencies = (
 			);
 			name = KidSignApp;
-			packageProductDependencies = (
-				A4EB2F8B2B7021B90073E1BC /* Lottie */,
-			);
 			productName = KidSignApp;
 			productReference = A47E41682B68E49A00D36675 /* KidSignApp.app */;
 			productType = "com.apple.product-type.application";
@@ -359,9 +281,6 @@
 				Base,
 			);
 			mainGroup = A47E415F2B68E49A00D36675;
-			packageReferences = (
-				A4EB2F8A2B7021B90073E1BC /* XCRemoteSwiftPackageReference "lottie-ios" */,
-			);
 			productRefGroup = A47E41692B68E49A00D36675 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,40 +296,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01A52AE2B6A3BCB0085BCC3 /* washhand.gif in Resources */,
-				A99F40F22B6A4EEC005E99CE /* boringword.gif in Resources */,
-				A950D4382B6A4B7F009B387C /* bathword.gif in Resources */,
-				A99F40F02B6A4ECA005E99CE /* washface.gif in Resources */,
+				A950D4322B6A49E4009B387C /* excitedword.gif in Resources */,
 				A47E41732B68E49B00D36675 /* Preview Assets.xcassets in Resources */,
-				A9CAC1952B6A5AEC00A8F835 /* fullword.gif in Resources */,
 				A950D42E2B6A4996009B387C /* schoolword.gif in Resources */,
+				A950D41D2B6A48C2009B387C /* washface.gif in Resources */,
 				F01A52AC2B6A3BAB0085BCC3 /* sadword.gif in Resources */,
-				A4EB2F902B7030B00073E1BC /* celebrate.json in Resources */,
 				F01A52B22B6A3BD80085BCC3 /* toilet.gif in Resources */,
-				A9CAC1972B6A5BF300A8F835 /* excitedword.gif in Resources */,
 				F01A52C82B6A433C0085BCC3 /* change.gif in Resources */,
+				A950D4212B6A48D1009B387C /* boringword.gif in Resources */,
 				F01A52A62B6A3B160085BCC3 /* happy.gif in Resources */,
-				A99F40EC2B6A4EAC005E99CE /* excited.gif in Resources */,
+				A950D4172B6A4883009B387C /* fullword.gif in Resources */,
+				A950D4192B6A48A5009B387C /* bath.gif in Resources */,
 				A950D4262B6A495C009B387C /* brushingword.gif in Resources */,
 				F01A52B62B6A3BF10085BCC3 /* hungry.gif in Resources */,
-				A9557C542B6D9BBF0011926D /* Ithra.ttf in Resources */,
 				F01A52B42B6A3BDE0085BCC3 /* toiletword.gif in Resources */,
 				F01A52CA2B6A43420085BCC3 /* changeword.gif in Resources */,
 				F01A52B82B6A3BF80085BCC3 /* hungryword.gif in Resources */,
-				A950D4362B6A4AC6009B387C /* washfaceword.gif in Resources */,
 				A950D4282B6A4962009B387C /* brushing.gif in Resources */,
 				A950D42A2B6A4971009B387C /* sleepword.gif in Resources */,
-				A9CAC1932B6A5AE400A8F835 /* full.gif in Resources */,
 				F01A52BC2B6A3C0B0085BCC3 /* thirstyword.gif in Resources */,
 				A950D4302B6A499D009B387C /* school.gif in Resources */,
-				A99F40EE2B6A4EBC005E99CE /* bath.gif in Resources */,
 				A47E41702B68E49B00D36675 /* Assets.xcassets in Resources */,
-				A99F40EA2B6A4E74005E99CE /* boring.gif in Resources */,
 				A950D42C2B6A497D009B387C /* sleep.gif in Resources */,
 				F01A52BE2B6A3C150085BCC3 /* kg.gif in Resources */,
 				F01A52A82B6A3B2A0085BCC3 /* happyword.gif in Resources */,
 				F01A52C02B6A3C1A0085BCC3 /* kgword.gif in Resources */,
 				F01A52BA2B6A3BFF0085BCC3 /* thirsty.gif in Resources */,
 				F01A52B02B6A3BD00085BCC3 /* washhandword.gif in Resources */,
+				A950D41F2B6A48C9009B387C /* boring.gif in Resources */,
 				F01A52AA2B6A3BA50085BCC3 /* sad.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,33 +336,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01A52C62B6A3DB70085BCC3 /* changeclothesView.swift in Sources */,
-				A99F40F42B6A4F71005E99CE /* WashHandView.swift in Sources */,
+				A47E416E2B68E49A00D36675 /* ContentView.swift in Sources */,
 				A9CFA88B2B68FED700032396 /* SadView.swift in Sources */,
 				F06366B52B6A327A004A4C1B /* thirstyView.swift in Sources */,
-				F01A52CC2B6A47090085BCC3 /* BathView.swift in Sources */,
+				F01A52CC2B6A47090085BCC3 /* bathView.swift in Sources */,
 				F01A52D22B6A47780085BCC3 /* excitedView.swift in Sources */,
 				A9930B162B68F60B004507C5 /* HappyView.swift in Sources */,
-				F06718062B6D54AF00E665AF /* Routine1.swift in Sources */,
-				F003D69E2B6EA92F00EE26BE /* progress.swift in Sources */,
 				F06E67202B68F7220073D6A9 /* Model.swift in Sources */,
+				F0B5CE4F2B6A49C9001B5EAF /* washhandView.swift in Sources */,
 				A950D4122B6A44F0009B387C /* SleepIView.swift in Sources */,
 				A9CFA88D2B69334100032396 /* HungryView.swift in Sources */,
-				F06718012B6D469700E665AF /* Emotion.swift in Sources */,
-				F0FB1D1B2B6BC91A00E874D3 /* Test2View.swift in Sources */,
-				F0FB1D1D2B6BC99E00E874D3 /* Test3View.swift in Sources */,
-				F01A52D82B6A48070085BCC3 /* BrushingView.swift in Sources */,
+				F01A52D82B6A48070085BCC3 /* brushingView.swift in Sources */,
 				F01A52D62B6A47D50085BCC3 /* SchoolView.swift in Sources */,
-				F01A52D02B6A47520085BCC3 /* BoringView.swift in Sources */,
-				F01A52D42B6A47990085BCC3 /* FullView.swift in Sources */,
+				F01A52D02B6A47520085BCC3 /* boringView.swift in Sources */,
+				F01A52D42B6A47990085BCC3 /* fullView.swift in Sources */,
 				F05959A12B6919D7002061DA /* KgView.swift in Sources */,
-				F01A52CE2B6A472F0085BCC3 /* WashFaceView.swift in Sources */,
+				F01A52CE2B6A472F0085BCC3 /* washfaceView.swift in Sources */,
 				F01A52C22B6A3C540085BCC3 /* toilteView.swift in Sources */,
 				F01A52A42B6A3A250085BCC3 /* PageView.swift in Sources */,
-				F06718042B6D4A7500E665AF /* Mainpage.swift in Sources */,
 				F06366BD2B6A35FC004A4C1B /* GifImage.swift in Sources */,
-				F0FB1D1F2B6BCFA400E874D3 /* SchoolKgTestView.swift in Sources */,
-				A9267A6D2B6B9C4400BD756D /* Test1View.swift in Sources */,
-				F06718082B6D584200E665AF /* Routine2.swift in Sources */,
+				F059599E2B69153E002061DA /* Progress.swift in Sources */,
 				A47E416C2B68E49A00D36675 /* KidSignAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,14 +490,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidSignApp/Preview Content\"";
-				DEVELOPMENT_TEAM = TGL4K2UHX6;
+				DEVELOPMENT_TEAM = 8TGKB589A2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KidSignApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,14 +520,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidSignApp/Preview Content\"";
-				DEVELOPMENT_TEAM = TGL4K2UHX6;
+				DEVELOPMENT_TEAM = 8TGKB589A2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KidSignApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -658,25 +564,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A4EB2F8A2B7021B90073E1BC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A4EB2F8B2B7021B90073E1BC /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A4EB2F8A2B7021B90073E1BC /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A47E41602B68E49A00D36675 /* Project object */;
 }

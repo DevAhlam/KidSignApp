@@ -11,7 +11,7 @@ import SwiftUI
 struct KidSignAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Mainpage()
         }
     }
 }
