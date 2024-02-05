@@ -10,7 +10,7 @@
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIImageName</key>
-		<string>lauchScreen</string>
+		<string>lauchscreen</string>
 	</dict>
 </dict>
 </plist>
